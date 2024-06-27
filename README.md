@@ -1,2 +1,2 @@
-# Jamal Al Badarin - Website Portfolio
- Website Portfolio / Resume
+# Jamal Al Badarin - Personal Website Portfolio
+ Personal Website Portfolio / Resume

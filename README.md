@@ -69,4 +69,24 @@
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/
+    <pre><code>git clone https://github.com/al-badarin/Jamal-Al-Badarin---Website-Portfolio.git
+cd Jamal-Al-Badarin---Website-Portfolio</code></pre>
+  </li>
+  <li>Open the <code>index.html</code> file in your browser to view the website.</li>
+</ol>
+
+<h2 id="usage">Usage</h2>
+<ul>
+  <li><strong><a href="#aboutUs" class="scroll-link">About Me</a></strong>: An overview of who I am and my professional background.</li>
+  <li><strong><a href="#service" class="scroll-link">Skills</a></strong>: A detailed list of my skills, including my proficiency in various technologies and tools.</li>
+  <li><strong><a href="#Portfolio" class="scroll-link">Projects</a></strong>: A showcase of my projects, each with a description, relevant technologies, and links to live demos or source code.</li>
+  <li><strong><a href="#clients" class="scroll-link">Certificates</a></strong>: View all my IT certifications with relevant details.</li>
+  <li><strong><a href="#contact" class="scroll-link">Contact</a></strong>: Use the form to send me a message directly.</li>
+</ul>
+
+<h2 id="host">Host</h2>
+
+<p>The IT Portfolio Website is hosted on Netlify.</p>
+<ul>
+  <li>Visit the live website: <a href="https://jamal-al-badarin.netlify.app/" target="_blank">Jamal Al-Badarin - IT Portfolio</a></li>
+</ul>

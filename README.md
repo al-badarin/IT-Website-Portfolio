@@ -52,7 +52,7 @@
   <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
   <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" />
   <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" />
-  <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt="jQuery" />
+  <img src="https://img.icons8.com/ios-filled/50/0769AD/jquery.png" alt="jQuery" />
   <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" />
 </p>
 
@@ -60,7 +60,7 @@
 <p>
   <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" />
   <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" />
-  <img src="https://img.icons8.com/windows/48/000000/netlify.png" alt="Netlify" />
+  <img src="https://img.icons8.com/color/48/00C7B7/netlify.png" alt="Netlify" />
 </p>
 
 <h2 id="installation">Installation</h2>

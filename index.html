@@ -19,6 +19,7 @@
     />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/projects.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
 
@@ -515,6 +516,7 @@
       </div>
     </section>
 
+    <!--  Footer -->
     <footer class="footer_wrapper" id="contact">
       <div class="container">
         <section
@@ -525,9 +527,8 @@
             <h2>Contact</h2>
             <h6>Feel free to drop me a message!</h6>
 
-            <!-- fadeInRight animated wow delay-06s -->
             <div class="footer-wrap">
-              <div class="contact_info fadeInLeft animated wow delay-06s">
+              <!-- <div class="contact_info fadeInLeft animated wow delay-06s">
                 <div class="detail">
                   <h4>Jamal Al Badarin</h4>
                   <p>
@@ -556,6 +557,32 @@
                     </span>
                   </p>
                 </div>
+              </div> -->
+
+              <!-- Contact Form Section -->
+              <div class="contact_form fadeInRight animated wow delay-06s">
+                <h2>Contact Me</h2>
+                <form id="contact-form" action="#" method="POST">
+                  <input
+                    type="text"
+                    name="from_name"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="from_email"
+                    placeholder="Your Email"
+                    required
+                  />
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                  <button type="submit">Send Message</button>
+                </form>
+                <div id="form-messages"></div>
               </div>
 
               <img
@@ -566,43 +593,34 @@
             </div>
 
             <ul class="social_links">
-              <li
-                class="facebook bounceIn wow delay-02s animated"
-                style="visibility: visible; animation-name: bounceIn"
-              >
+              <li class="facebook bounceIn wow delay-02s animated">
                 <a
                   href="https://www.facebook.com/jamal.al.badarin/"
                   target="_blank"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
               </li>
-              <li
-                class="github bounceIn wow delay-03s animated"
-                style="visibility: visible; animation-name: bounceIn"
-              >
-                <a href="https://github.com/al-badarin" target="_blank"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+              <li class="github bounceIn wow delay-03s animated">
+                <a href="https://github.com/al-badarin" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
               </li>
-              <li
-                class="linkedin bounceIn wow delay-04s animated"
-                style="visibility: visible; animation-name: bounceIn"
-              >
+              <li class="linkedin bounceIn wow delay-04s animated">
                 <a
                   href="https://www.linkedin.com/in/jamal-al-badarin-721141201/"
                   target="_blank"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
               </li>
-              <li
-                class="discord bounceIn wow delay-05s animated"
-                style="visibility: visible; animation-name: bounceIn"
-              >
+              <li class="discord bounceIn wow delay-05s animated">
                 <a
                   href="https://discordapp.com/users/688828051542507656/"
                   target="_blank"
-                  ><i class="fa-brands fa-discord"></i
-                ></a>
+                >
+                  <i class="fa-brands fa-discord"></i>
+                </a>
               </li>
             </ul>
           </div>

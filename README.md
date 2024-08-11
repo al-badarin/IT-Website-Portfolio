@@ -1,4 +1,4 @@
-<h1><a href="https://jamal-al-badarin.netlify.app/">Jamal Al-Badarin - IT Portfolio</a></h1>
+<h1><a href="https://jamal-al-badarin.netlify.app/" target="_blank">Jamal Al-Badarin - IT Portfolio</a></h1>
 
 <p>Welcome to the repository of my IT Portfolio Website. This portfolio showcases my experience, projects, CV, and all my certifications. The website also features a responsive design and a contact form where visitors can reach out to me.</p>
 
@@ -52,7 +52,7 @@
   <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" />
   <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" />
   <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
-  <img src="https://img.icons8.com/color/48/000000/jquery.png" alt="jQuery" />
+  <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt="jQuery" />
   <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" />
 </p>
 
@@ -60,7 +60,7 @@
 <p>
   <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" />
   <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" />
-  <img src="https://img.icons8.com/color/48/000000/netlify.png" alt="Netlify" />
+  <img src="https://img.icons8.com/windows/48/000000/netlify.png" alt="Netlify" />
 </p>
 
 <h2 id="installation">Installation</h2>
@@ -69,24 +69,4 @@
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/al-badarin/Jamal-Al-Badarin---Website-Portfolio.git
-cd Jamal-Al-Badarin---Website-Portfolio</code></pre>
-  </li>
-  <li>Open the <code>index.html</code> file in your browser to view the website.</li>
-</ol>
-
-<h2 id="usage">Usage</h2>
-<ul>
-  <li><strong>Home Page</strong>: An overview of who I am and my professional background.</li>
-  <li><strong>Projects</strong>: A detailed list of my projects, each with a description and links to live demos or source code.</li>
-  <li><strong>CV</strong>: A downloadable version of my CV in PDF format.</li>
-  <li><strong>Certificates</strong>: View all my IT certifications with relevant details.</li>
-  <li><strong>Contact Form</strong>: Use the form to send me a message directly.</li>
-</ul>
-
-<h2 id="host">Host</h2>
-
-<p>The IT Portfolio Website is hosted on Netlify.</p>
-<ul>
-  <li>Visit the live website: <a href="https://jamal-al-badarin.netlify.app/">Jamal Al-Badarin - IT Portfolio</a></li>
-</ul>
+    <pre><code>git clone https://github.com/

@@ -28,6 +28,7 @@
 .contact_form input,
 .contact_form textarea {
   width: 100%;
+  color: #000;
   padding: 10px;
   margin-bottom: 15px;
   border: none;

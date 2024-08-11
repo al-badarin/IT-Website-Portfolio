@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #feb11e;
+  --secondary-color: #000000;
+  --text-color: #ffffff;
+  --gradient-start: #0d0d0d;
+  --gradient-end: #1a1a1a;
+}
+
 /* General footer styles */
 .footer_wrapper {
   background-color: #333;
@@ -15,42 +23,91 @@
 
 .contact_form {
   width: 50%;
-  background: #444;
+  background-color: var(--gradient-end);
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
 }
 
 .contact_form h2 {
   margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
 }
 
 .contact_form input,
 .contact_form textarea {
   width: 100%;
-  color: #000;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 15px;
-  border: none;
+  border: 1px solid #333;
   border-radius: 5px;
+  background-color: #333;
+  color: var(--text-color);
   box-sizing: border-box;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 10px var(--primary-color);
 }
 
 .contact_form button {
   padding: 10px 20px;
-  background-color: #feb11e;
+  background-color: var(--primary-color);
   color: #333;
   font-weight: bold;
-  /* text-transform: uppercase; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+  transition: background-color 0.3s ease;
 }
 
 .contact_form button:hover {
   background-color: #af7914;
   color: #000;
+}
+
+#form-messages {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #fff;
+  text-align: center;
+}
+
+.error {
+  color: white;
+  background-color: #f44336;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success {
+  color: white;
+  background-color: #4caf50;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success-message,
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.success-message {
+  background-color: #4caf50;
+}
+
+.error-message {
+  background-color: #f44336;
 }
 
 /* Social Links */
@@ -81,7 +138,7 @@
 }
 
 .footer_bottom a.reload {
-  color: #feb11e;
+  color: var(--primary-color);
 }
 
 /* Responsive Design */

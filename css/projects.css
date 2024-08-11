@@ -65,7 +65,7 @@
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ffcc00;
+  background-color: #feb11e;
   color: #333;
   text-decoration: none;
   border-radius: 5px;
@@ -74,6 +74,6 @@
 }
 
 .btn:hover {
-  background-color: #ffa500;
+  background-color: #af7914;
   color: #000;
 }

@@ -39,6 +39,8 @@
   padding: 10px 20px;
   background-color: #feb11e;
   color: #333;
+  font-weight: bold;
+  /* text-transform: uppercase; */
   border: none;
   border-radius: 5px;
   cursor: pointer;

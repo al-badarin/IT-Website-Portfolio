@@ -53,7 +53,7 @@
   <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" />
   <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" />
   <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" />
-  <img src="https://img.icons8.com/ios-filled/50/0769AD/jquery.png" alt="jQuery" />
+  <img src="https://img.icons8.com/ios-filled/50/0769AD/jquery.png" alt="jQuery" style="width: 48px; height: 48px;" />
 </p>
 
 <h3>Other</h3>

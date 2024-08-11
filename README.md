@@ -49,9 +49,9 @@
 
 <h3>Frontend</h3>
 <p>
+  <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
   <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" />
   <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" />
-  <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" />
   <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt="jQuery" />
   <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" />
 </p>
@@ -79,9 +79,10 @@ cd Jamal-Al-Badarin---Website-Portfolio</code></pre>
 <ul>
   <li><strong><a href="#aboutUs" class="scroll-link">About Me</a></strong>: An overview of who I am and my professional background.</li>
   <li><strong><a href="#service" class="scroll-link">Skills</a></strong>: A detailed list of my skills, including my proficiency in various technologies and tools.</li>
-  <li><strong><a href="#Portfolio" class="scroll-link">Projects</a></strong>: A showcase of my projects, each with a description, relevant technologies, and links to live demos or source code.</li>
+  <li><strong>CV</strong>: A downloadable version of my CV in PDF format.</li>
+  <li><strong><a href="#Portfolio" class="scroll-link">Projects</a></strong>: A showcase of my projects, each with links to live demos and source code in GitHub.</li>
   <li><strong><a href="#clients" class="scroll-link">Certificates</a></strong>: View all my IT certifications with relevant details.</li>
-  <li><strong><a href="#contact" class="scroll-link">Contact</a></strong>: Use the form to send me a message directly.</li>
+  <li><strong><a href="#contact" class="scroll-link">Contact</a></strong>: Use the contact form to send me a message directly.</li>
 </ul>
 
 <h2 id="host">Host</h2>

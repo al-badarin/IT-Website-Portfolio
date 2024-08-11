@@ -60,7 +60,7 @@
 <p>
   <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" />
   <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" />
-   <img src="https://img.icons8.com/fluency/48/26e07f/netlify.png" alt="Netlify" />
+   <img src="https://static-00.iconduck.com/assets.00/netlify-icon-511x512-idkvcd89.png" alt="Netlify" />
 </p>
 
 <h2 id="installation">Installation</h2>

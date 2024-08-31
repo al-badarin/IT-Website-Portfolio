@@ -16,6 +16,28 @@
   margin-bottom: 10px;
 }
 
+.project-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 10px 0;
+  padding: 8px 12px;
+  background-color: #feb11e;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), inset 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.project-title:hover {
+  transform: scale(1.03);
+  background-color: #f09000;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4), inset 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Grid Layout */
 .grid-container {
   display: grid;
@@ -47,18 +69,22 @@
 /* Overlay styling */
 .overlay {
   position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
-  width: 100%;
+  width: 80%;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .grid-item:hover .overlay {
   opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05);
 }
 
 /* Button styling */

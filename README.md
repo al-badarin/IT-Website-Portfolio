@@ -2,6 +2,8 @@
 
 <p>Welcome to the repository of my IT Portfolio Website. This portfolio showcases my experience, projects, CV, and all my certifications. The website also features a responsive design and a contact form where visitors can reach out to me.</p>
 
+![Preview Image](./image.png)
+
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="#features">Features</a></li>

@@ -129,12 +129,27 @@
 }
 
 .footer_bottom {
+  display: flex; /* single row */
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+  flex-wrap: nowrap; /* no wrapping */
   text-align: center;
   margin-top: 20px;
 }
 
 .footer_bottom span {
+  display: inline-flex; /* keep inline */
+  align-items: center;
+  white-space: nowrap; /* prevent wrap */
   font-size: 14px;
+  margin-right: 8px;
+}
+
+.footer_bottom span#year{
+  margin-left: 4px;
+
 }
 
 .footer_bottom a.reload {

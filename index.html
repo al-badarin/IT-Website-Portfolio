@@ -486,8 +486,8 @@
               </a>
             </li>
 
-             <!-- AI Basics Certificate -->
-             <li class="splide__slide">
+            <!-- AI Basics Certificate -->
+            <li class="splide__slide">
               <a
                 href="img/full-certificates/AI Basics - October 2024 - Honorable mention.png"
                 target="_blank"
@@ -747,7 +747,7 @@
 
       <div class="container zoomIn delay-06s animated">
         <div class="footer_bottom">
-          <span>© Jamal Al Badarin <a class="reload">2024</a></span>
+          <span> © <span id="year"></span> Jamal Al Badarin </span>
         </div>
       </div>
     </footer>
@@ -774,5 +774,14 @@
       src="https://cdn.emailjs.com/dist/email.min.js"
     ></script>
     <script src="js/contact-section.js"></script>
+    <script>
+      // set current year dynamically
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // optional reload action
+      document.querySelector('.reload').addEventListener('click', () => {
+        location.reload();
+      });
+    </script>
   </body>
 </html>

@@ -5,6 +5,11 @@
   padding: 40px 20px;
 }
 
+#Portfolio .portfolio{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 /* Title styling */
 .section-title {
   text-align: center;

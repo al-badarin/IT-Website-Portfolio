@@ -70,9 +70,10 @@
 /* Image styling */
 .portfolio_img img {
   width: 100%;
-  height: auto;
+  height: 200px;
   display: block;
   border-radius: 8px;
+  
 }
 
 /* Overlay styling */
